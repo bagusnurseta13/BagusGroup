@@ -117,7 +117,7 @@
 
                 <div class="row x_title">
                   <div class="col-md-6">
-                    <h3>Inventory <small>Kelola Penjualan</small></h3>
+                    <h3>Kelola Penjualan</h3>
                   </div>
 
                 <div class="col-md-9 col-sm-9 col-xs-12">
@@ -129,6 +129,9 @@
 
                       <form action="" method="post">
                         <div class="form-group">
+                          <label for="total_penjualan">Nama Barang</label>
+                          <input class="form-control" type="text" name="nama_barang">
+                        </div><div class="form-group">
                           <label for="total_penjualan">Total Penjualan</label>
                           <input class="form-control" type="text" name="total_penjualan">
                         </div>
@@ -152,11 +155,33 @@
                        ?>
                 </div>
 
+                      <div class="col-xs-8">
+                      <table class="table table-bordered table-hover">
+                        <thead>
+                          <p><h3>Stock Barang Tersedia</h3></p>
+                          <tr>
+                            <th>Id Barang</th>
+                            <th>Kategori</th>
+                            <th>Nama Barang</th>
+                            <th>Stock</th>
+                            <th>Harga Jual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php //FIND ALL categories QUERY
+                          findAdminBArang();
+                           ?>
+
+                        </tbody>
+                      </table>
+                    
                     <div class="col-xs-8">
                       <table class="table table-bordered table-hover">
                         <thead>
+                         <p><h3>Detail Penjualan</h3></p>
                           <tr>
                             <th>Tanggal Penjualan</th>
+                            <th>Nama Barang</th>
                             <th>Total Penjualan</th>
                             <th>Total Harga</th>
                           </tr>
@@ -169,7 +194,7 @@
                         </tbody>
                       </table>
                     </div>
-
+                    
                 </div>
 
                 <div class="clearfix"></div>

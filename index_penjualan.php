@@ -49,7 +49,7 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>Staf Kasir></h2>
+                <h2>Staf Kasir</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -121,6 +121,7 @@
                           <thead>
                             <tr>
                               <th>Tanggal Penjualan</th>
+                              <th>Nama Barang</th>
                               <th>Total Penjualan</th>
                               <th>Total</th>
                             </tr>

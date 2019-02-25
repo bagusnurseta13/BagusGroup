@@ -135,6 +135,44 @@
                           </tbody>
                         </table>
                 </div>
+                 <div class="col-xs-8">
+                      <table class="table table-bordered table-hover">
+                        <thead>
+                          <p><h3>Stock Barang Tersedia</h3></p>
+                          <tr>
+                            <th>Id Barang</th>
+                            <th>Kategori</th>
+                            <th>Nama Barang</th>
+                            <th>Stock</th>
+                            <th>Harga Jual</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php //FIND ALL categories QUERY
+                          findAdminBArang();
+                           ?>
+
+                        </tbody>
+                      </table>
+                          <div class="col-xs-8">
+                      <table class="table table-bordered table-hover">
+                        <thead>
+                         <p><h3>Detail Penjualan</h3></p>
+                          <tr>
+                            <th>Tanggal Penjualan</th>
+                            <th>Nama Barang</th>
+                            <th>Total Penjualan</th>
+                            <th>Total Harga</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php //FIND ALL categories QUERY
+                          findAdminPenjualan();
+                           ?>
+
+                        </tbody>
+                      </table>
+                    </div>
 
                 <div class="clearfix"></div>
               </div>

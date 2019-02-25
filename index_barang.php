@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Citra Mart </title>
+    <title>Bagus Mart </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Citra Mart</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Bagus Mart</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -113,7 +113,7 @@
 
                 <div class="row x_title">
                   <div class="col-md-6">
-                    <h3>Inventory <small>Data Barang</small></h3>
+                    <h3>Data Barang</h3>
                   </div>
 
                 <div class="col-md-9 col-sm-9 col-xs-12">
@@ -135,6 +135,25 @@
                           </tbody>
                         </table>
                 </div>
+                  <div class="col-xs-8">
+                      <table class="table table-bordered table-hover">
+                        <thead>
+                         <p><h3>Detail Penjualan</h3></p>
+                          <tr>
+                            <th>Tanggal Penjualan</th>                            
+                            <th>Nama Barang</th>
+                            <th>Total Penjualan</th>
+                            <th>Total Harga</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php //FIND ALL categories QUERY
+                          findAdminPenjualan();
+                           ?>
+
+                        </tbody>
+                      </table>
+                    </div>
 
                 <div class="clearfix"></div>
               </div>

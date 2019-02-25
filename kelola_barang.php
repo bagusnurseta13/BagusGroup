@@ -103,7 +103,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/user.png" alt="">John Doe
+                    <img src="images/user.png" alt="">Staf Barang
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -125,7 +125,7 @@
 
                 <div class="row x_title">
                   <div class="col-md-6">
-                    <h3>Inventory <small>Kelola Barang</small></h3>
+                    <h3>Kelola Barang</h3>
                   </div>
 
                 <div class="col-md-9 col-sm-9 col-xs-12">
